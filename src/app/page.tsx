@@ -6,10 +6,11 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import ContactSection from "@/components/section/contact-section";
-import HackathonsSection from "@/components/section/hackathons-section";
+//import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -135,15 +136,55 @@ export default function Page() {
           <ProjectsSection />
         </BlurFade>
       </section>
+      {/*
       <section id="hackathons">
         <BlurFade delay={BLUR_FADE_DELAY * 13}>
           <HackathonsSection />
         </BlurFade>
       </section>
-      <section id="contact">
-        <BlurFade delay={BLUR_FADE_DELAY * 16}>
-          <ContactSection />
-        </BlurFade>
+      */}
+      <section id="collaboration">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+            <div className="space-y-4">
+              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                Freelance & Collaboration
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                Ready to Build Something Great?
+              </h2>
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                I&apos;m available for freelance projects, consulting, and
+                collaborations. Whether you need a Web3 dApp, a full-stack
+                application, or smart contract development, let&apos;s discuss
+                how I can help bring your vision to life.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center items-center pt-4">
+                <Button asChild size="lg" className="w-full sm:w-auto">
+                  <Link
+                    href="https://cal.com/adxtya-jha/15min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book a Free Consultation
+                  </Link>
+                </Button>
+                <Button
+                  asChild
+                  variant="outline"
+                  size="lg"
+                  className="w-full sm:w-auto"
+                >
+                  <Link
+                    href={`mailto:${DATA.contact.email}?subject=Freelance Project Inquiry`}
+                  >
+                    Send an Email
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </BlurFade>
+        </div>
       </section>
     </main>
   );
