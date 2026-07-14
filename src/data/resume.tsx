@@ -21,6 +21,11 @@ import { Grpc } from "@/components/ui/svgs/grpc";
 import { Graphql } from "@/components/ui/svgs/grapql";
 import { RestApi } from "@/components/ui/svgs/restapi";
 import { Kafka } from "@/components/ui/svgs/kafka";
+import { Prometheus } from "@/components/ui/svgs/prometheus";
+import { Grafana } from "@/components/ui/svgs/grafana";
+import { Git } from "@/components/ui/svgs/git";
+import { Linux } from "@/components/ui/svgs/linux";
+import { Angular } from "@/components/ui/svgs/angular";
 
 export const DATA = {
   name: "Ridwan Alam",
@@ -35,7 +40,7 @@ export const DATA = {
   avatarUrl: "/me.png",
   skills: [
     { name: "C++", icon: Cplusplus },
-    { name: "Java", icon: Java },
+    //{ name: "Java", icon: Java },
     { name: "Python", icon: Python },
     { name: "Javascript", icon: Javascript},
     { name: "Typescript", icon: Typescript },
@@ -43,6 +48,7 @@ export const DATA = {
     { name: "Rust", icon: Rust },
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
+    { name: "Angular", icon: Angular },
     { name: "Node.js", icon: Nodejs },
     { name: "Postgres", icon: Postgresql },
     { name: "MongoDB", icon: MongoDB },
@@ -51,10 +57,10 @@ export const DATA = {
     { name: "GraphQL", icon: Graphql },
     { name: "RestAPI", icon: RestApi },
     { name: "Kafka", icon: Kafka },
-    { name: "Prometheus", icon: Aws },
-    { name: "Grafana", icon: Aws },
-    { name: "Git", icon: Aws },
-    { name: "Linux", icon: Aws },
+    { name: "Prometheus", icon: Prometheus },
+    { name: "Grafana", icon: Grafana },
+    { name: "Git", icon: Git },
+    { name: "Linux", icon: Linux },
     { name: "AWS", icon: Aws },
     { name: "Azure", icon: Azure },
     { name: "Docker", icon: Docker },
@@ -158,7 +164,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
+      title: "Crypto Dashboard",
       href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
@@ -181,44 +187,11 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/work1.png",
+      //video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
+      title: "AI CRM",
       href: "https://llm.report",
       dates: "April 2023 - September 2023",
       active: true,
@@ -247,11 +220,44 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/work2.png",
+      //video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "Automatic Chat",
+      title: "Uber backend",
+      href: "https://llm.report",
+      dates: "April 2023 - September 2023",
+      active: true,
+      description:
+        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://llm.report",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/dillionverma/llm.report",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/work3.png",
+      //video: "https://cdn.llm.report/openai-demo.mp4",
+    },
+    {
+      title: "Code Flow",
       href: "https://automatic.chat",
       dates: "April 2023 - March 2024",
       active: true,
@@ -271,13 +277,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/work4.png",
+      //video:"https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
   hackathons: [

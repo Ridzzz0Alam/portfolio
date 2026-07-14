@@ -162,7 +162,7 @@ export default function Page() {
               <div className="flex flex-col sm:flex-row gap-3 justify-center items-center pt-4">
                 <Button asChild size="lg" className="w-full sm:w-auto">
                   <Link
-                    href="https://cal.com/adxtya-jha/15min"
+                    href="https://cal.com/ridwan-alam/15min"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
