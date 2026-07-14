@@ -10,9 +10,17 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
 import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Java } from "@/components/ui/svgs/java";
-import { Cplusplus } from "@/components/ui/svgs/csharp";
+import { Cplusplus } from "@/components/ui/svgs/cplusplus";
 import { Javascript } from "@/components/ui/svgs/javascript";
 import { Rust } from "@/components/ui/svgs/rust";
+import { MongoDB } from "@/components/ui/svgs/mongodb";
+import { Redis } from "@/components/ui/svgs/redis";
+import { Aws } from "@/components/ui/svgs/aws";
+import { Azure } from "@/components/ui/svgs/azure";
+import { Grpc } from "@/components/ui/svgs/grpc";
+import { Graphql } from "@/components/ui/svgs/grapql";
+import { RestApi } from "@/components/ui/svgs/restapi";
+import { Kafka } from "@/components/ui/svgs/kafka";
 
 export const DATA = {
   name: "Ridwan Alam",
@@ -37,6 +45,18 @@ export const DATA = {
     { name: "Next.js", icon: NextjsIconDark },
     { name: "Node.js", icon: Nodejs },
     { name: "Postgres", icon: Postgresql },
+    { name: "MongoDB", icon: MongoDB },
+    { name: "Redis", icon: Redis },
+    { name: "gRPC", icon: Grpc },
+    { name: "GraphQL", icon: Graphql },
+    { name: "RestAPI", icon: RestApi },
+    { name: "Kafka", icon: Kafka },
+    { name: "Prometheus", icon: Aws },
+    { name: "Grafana", icon: Aws },
+    { name: "Git", icon: Aws },
+    { name: "Linux", icon: Aws },
+    { name: "AWS", icon: Aws },
+    { name: "Azure", icon: Azure },
     { name: "Docker", icon: Docker },
     { name: "Kubernetes", icon: Kubernetes },
 
