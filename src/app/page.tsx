@@ -166,7 +166,7 @@ export default function Page() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Book a Free Consultation
+                    Book a Consultation
                   </Link>
                 </Button>
                 <Button

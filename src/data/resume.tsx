@@ -10,31 +10,36 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
 import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Java } from "@/components/ui/svgs/java";
-import { Csharp } from "@/components/ui/svgs/csharp";
+import { Cplusplus } from "@/components/ui/svgs/csharp";
+import { Javascript } from "@/components/ui/svgs/javascript";
+import { Rust } from "@/components/ui/svgs/rust";
 
 export const DATA = {
   name: "Ridwan Alam",
   initials: "RA.",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://ridwanalam.co",
+  location: "Budapest, Hungary",
+  //locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Full Stack Developer with expertise in AI and Infra. I love building things. Also very active on Twitter.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I’m a Full Stack & Infra Engineer building scalable SaaS, event-driven microservices, and AI-powered applications. Whether I'm writing high-throughput services in Go and Java (Spring Boot), orchestration pipelines with Kafka, or clean frontends in Nextjs or Angular, I love taking complex product ideas to production. I design with a cloud-native, AI ready mindset leveraging Docker, Amazon EKS, and robust observability to ensure systems scale effortlessly.",
   avatarUrl: "/me.png",
   skills: [
+    { name: "C++", icon: Cplusplus },
+    { name: "Java", icon: Java },
+    { name: "Python", icon: Python },
+    { name: "Javascript", icon: Javascript},
+    { name: "Typescript", icon: Typescript },
+    { name: "Go", icon: Golang },
+    { name: "Rust", icon: Rust },
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
     { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
     { name: "Postgres", icon: Postgresql },
     { name: "Docker", icon: Docker },
     { name: "Kubernetes", icon: Kubernetes },
-    { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
+
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -119,8 +124,8 @@ export const DATA = {
       href: "https://www.iium.edu.my/v2",
       degree: "Master of Science in Computer Science (M.Sc)",
       logoUrl: "/debrecen.png",
-      start: "2023",
-      end: "2024",
+      start: "2025",
+      end: "Present",
     },
     {
       school: "International Islamic University Malaysia",
