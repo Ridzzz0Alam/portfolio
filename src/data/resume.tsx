@@ -69,7 +69,8 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://medium.com/@ridwan-alam", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "ridwan0gts@gmail.com",
@@ -122,7 +123,7 @@ export const DATA = {
     {
       company: "Instapay Technologies Sdn Bhd",
       badges: [],
-      href: "https://shopify.com",
+      href: "",
       location: "Kuala Lumpur, Malaysia",
       title: "Software Engineer",
       logoUrl: "/instapay.webp",
@@ -133,7 +134,7 @@ export const DATA = {
     },
     {
       company: "VLSI Mems & Research Unit",
-      href: "https://nvidia.com/",
+      href: "",
       badges: [],
       location: "Selangor, Malaysia",
       title: "R&D Engineer Intern",
@@ -169,7 +170,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "With the release of the OpenAI GPT Store, I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -183,7 +184,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -192,7 +193,7 @@ export const DATA = {
     },
     {
       title: "AI CRM",
-      href: "https://llm.report",
+      href: "",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -211,12 +212,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -225,7 +226,7 @@ export const DATA = {
     },
     {
       title: "Uber backend",
-      href: "https://llm.report",
+      href: "",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -244,12 +245,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -258,7 +259,7 @@ export const DATA = {
     },
     {
       title: "Code Flow",
-      href: "https://automatic.chat",
+      href: "",
       dates: "April 2023 - March 2024",
       active: true,
       description:
@@ -285,6 +286,9 @@ export const DATA = {
       //video:"https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
+
+
+  /*
   hackathons: [
     {
       title: "Hack Western 5",
@@ -670,4 +674,5 @@ export const DATA = {
       ],
     },
   ],
+  */
 } as const;
