@@ -46,29 +46,23 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Ridzzz0Alam",
         icon: Icons.github,
         navbar: true,
       },
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/mohammed-ridwan-9184b6148/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/Ridzzz_Alam",
         icon: Icons.x,
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
@@ -122,7 +116,7 @@ export const DATA = {
   education: [
     {
       school: "University of Debrecen",
-      href: "https://buildspace.so",
+      href: "https://www.iium.edu.my/v2",
       degree: "Master of Science in Computer Science (M.Sc)",
       logoUrl: "/debrecen.png",
       start: "2023",
@@ -130,7 +124,7 @@ export const DATA = {
     },
     {
       school: "International Islamic University Malaysia",
-      href: "https://uwaterloo.ca",
+      href: "https://edu.unideb.hu",
       degree: "Bachelor of Engineering in Electronics, Computer & Information Engineering (B.Sc)",
       logoUrl: "/iium.jpeg",
       start: "2017",
