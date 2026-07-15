@@ -118,7 +118,7 @@ export const DATA = {
       start: "March 2023",
       end: "August 2025",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Architected event-driven microservices with Spring Boot, Kafka, and OpenAPI, handling high-volume daily events with low latency. Migrated a Spring MVC monolith to containerized Java microservices on AWS EKS, significantly increasing deployment frequency. Optimized PostgreSQL queries and indexing, dramatically improving dashboard load times. Built CI/CD pipelines with Azure Pipelines and AWS CodePipeline, streamlining the release process. Introduced a full observability stack with CloudWatch, Prometheus, Grafana, and OpenSearch, reducing incident resolution time.",
     },
     {
       company: "Instapay Technologies Sdn Bhd",
@@ -130,7 +130,7 @@ export const DATA = {
       start: "March 2022",
       end: "January 2023",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Developed features for internal fintech web portals using Angular, TypeScript, and HTML5/CSS3, enabling staff to manage client remittance accounts. Implemented role-based access control across multiple employee roles, securing sensitive data with JWT authentication. Built multi-step client onboarding workflows with Angular Reactive Forms for profile management and mobile app activation. Integrated Spring Boot and Node.js REST APIs, managing authentication tokens and async data flows for real-time account rendering. Performed functional testing and resolved cross-browser compatibility issues.",
     },
     {
       company: "VLSI Mems & Research Unit",
@@ -142,7 +142,7 @@ export const DATA = {
       start: "July 2021",
       end: "December 2021",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Designed end-to-end low-level systems parsing JSON configuration files using singleton design patterns, streamlining customer design parameter processing and validation workflows. Automated IEEE 1687 standard IP Design Compiler for validation fault detection in chip testing workflows. Developed C++ APIs integrating distinct IP components into unified compression and diagnose logic flows, improving code reusability and reducing compilation overhead.",
     },
   ],
   education: [
