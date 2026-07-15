@@ -26,6 +26,8 @@ import { Grafana } from "@/components/ui/svgs/grafana";
 import { Git } from "@/components/ui/svgs/git";
 import { Linux } from "@/components/ui/svgs/linux";
 import { Angular } from "@/components/ui/svgs/angular";
+import { SpringBoot } from "@/components/ui/svgs/springboot";
+import { FastApi } from "@/components/ui/svgs/fastapi";
 
 export const DATA = {
   name: "Ridwan Alam",
@@ -40,12 +42,14 @@ export const DATA = {
   avatarUrl: "/me.png",
   skills: [
     { name: "C++", icon: Cplusplus },
-    //{ name: "Java", icon: Java },
+    { name: "Java", icon: Java },
     { name: "Python", icon: Python },
     { name: "Javascript", icon: Javascript},
     { name: "Typescript", icon: Typescript },
     { name: "Go", icon: Golang },
-    { name: "Rust", icon: Rust },
+    //{ name: "Rust", icon: Rust },
+    { name: "Springboot", icon: SpringBoot },
+    { name: "FastAPI", icon: FastApi },
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "Angular", icon: Angular },
