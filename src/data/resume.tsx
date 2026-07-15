@@ -188,7 +188,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://github.com/Ridzzz0Alam",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -216,12 +216,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://github.com/Ridzzz0Alam",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "",
+          href: "https://github.com/Ridzzz0Alam",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -248,13 +248,8 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com",
+          href: "https://github.com/Ridzzz0Alam/developer_proj_uber_driver_locator",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -282,7 +277,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://github.com/Ridzzz0Alam",
           icon: <Icons.globe className="size-3" />,
         },
       ],
