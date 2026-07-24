@@ -28,6 +28,8 @@ import { Linux } from "@/components/ui/svgs/linux";
 import { Angular } from "@/components/ui/svgs/angular";
 import { SpringBoot } from "@/components/ui/svgs/springboot";
 import { FastApi } from "@/components/ui/svgs/fastapi";
+import { Django } from "@/components/ui/svgs/django";
+import { NestJS } from "@/components/ui/svgs/nestjs";
 
 export const DATA = {
   name: "Ridwan Alam",
@@ -41,7 +43,7 @@ export const DATA = {
     "I’m a Full Stack & Infra Engineer building scalable SaaS, event-driven microservices, and AI-powered applications. Whether I'm writing high-throughput services in Go and Java (Spring Boot), orchestration pipelines with Kafka, or clean frontends in Nextjs or Angular, I love taking complex product ideas to production. I design with a cloud-native, AI ready mindset leveraging Docker, Amazon EKS, and robust observability to ensure systems scale effortlessly.",
   avatarUrl: "/me.png",
   skills: [
-    { name: "C++", icon: Cplusplus },
+    //{ name: "C++", icon: Cplusplus },
     { name: "Java", icon: Java },
     { name: "Python", icon: Python },
     { name: "Javascript", icon: Javascript},
@@ -49,10 +51,11 @@ export const DATA = {
     { name: "Go", icon: Golang },
     //{ name: "Rust", icon: Rust },
     { name: "Springboot", icon: SpringBoot },
+    { name: "Django", icon: Django },
     { name: "FastAPI", icon: FastApi },
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
     { name: "Angular", icon: Angular },
+    { name: "Next.js", icon: NextjsIconDark },
+    { name: "NestJS", icon: NestJS },
     { name: "Node.js", icon: Nodejs },
     { name: "Postgres", icon: Postgresql },
     { name: "MongoDB", icon: MongoDB },
@@ -169,27 +172,30 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Crypto Dashboard",
+      title: "AI Note Application",
       href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "17th July 2026 - 20th July 2026",
       active: true,
       description:
-        "With the release of the OpenAI GPT Store, I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "A privacy-first notes application that pairs full note-taking with server-side AI: automatic summarization, smart tagging, and a RAG powered chat assistant that answers questions using only the user's own notes that  never the open web, and never with a client-exposed AI key.",
       technologies: [
-        "Next.js",
+        "Vue 3",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Supabase (Postgres + pgvector)",
+        "Deno Edge Functions",
+        "Google Gemini API",
+        "Tailwind CSS V4",
       ],
       links: [
         {
           type: "Website",
-          href: "https://github.com/Ridzzz0Alam",
+          href: "https://ai-notes-application.vercel.app",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Ridzzz0Alam/ai_notes_application",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/work1.png",
