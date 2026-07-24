@@ -30,6 +30,7 @@ import { SpringBoot } from "@/components/ui/svgs/springboot";
 import { FastApi } from "@/components/ui/svgs/fastapi";
 import { Django } from "@/components/ui/svgs/django";
 import { NestJS } from "@/components/ui/svgs/nestjs";
+import { Kotlin } from "@/components/ui/svgs/kotlin";
 
 export const DATA = {
   name: "Ridwan Alam",
@@ -38,18 +39,19 @@ export const DATA = {
   location: "Budapest, Hungary",
   //locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Full Stack Developer with expertise in AI and Infra. I love building things. Also very active on Twitter.",
+    "Full Stack Developer with expertise in AI and Infra. I love building things. Social Media addict.",
   summary:
     "I’m a Full Stack & Infra Engineer building scalable SaaS, event-driven microservices, and AI-powered applications. Whether I'm writing high-throughput services in Go and Java (Spring Boot), orchestration pipelines with Kafka, or clean frontends in Nextjs or Angular, I love taking complex product ideas to production. I design with a cloud-native, AI ready mindset leveraging Docker, Amazon EKS, and robust observability to ensure systems scale effortlessly.",
   avatarUrl: "/me.png",
   skills: [
-    //{ name: "C++", icon: Cplusplus },
-    { name: "Java", icon: Java },
-    { name: "Python", icon: Python },
+    { name: "C++", icon: Cplusplus },
+    //{ name: "Java", icon: Java },
     { name: "Javascript", icon: Javascript},
     { name: "Typescript", icon: Typescript },
+    { name: "Python", icon: Python },
+    { name: "Kotlin", icon: Kotlin },
     { name: "Go", icon: Golang },
-    //{ name: "Rust", icon: Rust },
+    { name: "Rust", icon: Rust },
     { name: "Springboot", icon: SpringBoot },
     { name: "Django", icon: Django },
     { name: "FastAPI", icon: FastApi },
